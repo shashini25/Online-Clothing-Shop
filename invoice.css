@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+	font-family: arial;
+}
+.invoice_container{
+	padding: 30px 100px;
+}
+.invoice_header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background:linear-gradient(to right,#4B086D, #AF6480); ;
+    height: 80px;
+    border: 1px solid;
+    border-radius: 20px;
+}
+.logo_container{
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;  
+}
+.logo_container img{
+    border-radius: 40%;
+    height: 60px;
+}
+
+.invoice-details{
+	margin-right: 1rem;
+    margin-top: 1rem;
+    color: white;
+    line-height: 1.5rem
+}
+.invoice_header h2{
+	margin-bottom: 0;
+    
+}
+.invoice_header p{
+	margin-top: 10px;
+}
+.customer_container{
+	padding: 0 100px;
+	display: flex;
+	justify-content: space-between;
+}
+.customer_container h2{
+    margin-top: 2px;
+}
+.order_container{
+    padding: 0 100px;
+}
+.invoice_amount{
+    padding: 0 ;
+}
+.amount_table td,th{
+	padding: 20px 10px ;
+    color: red;
+}  
+.amount_table td{
+    font-weight: 700;
+    font-size: 20px;
+}
+.invoice-hr{
+    border-bottom: 2px solid red;
+    width: 100%;
+}
+.paid-note{
+    color: red;
+    font-weight: 700;
+    font-size: 20px;
+    padding-top: 0px;
+}
+.invoice_footer{
+	padding: 0 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.invoice_footer h3{
+	font-style: italic;
+}
+.invoice_footer p{
+    margin-top: 1px;
+}
+.btnprint{
+    margin: 0 110px;
+}
+
+    .btn{
+        
+        background: rgb(236, 78, 236);
+        color: white;
+        width: 25%;
+        height: 40px;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        box-shadow: 3px o 10px rgba(0, 0, 0, 5);
+        padding: 0 100px;
+
+    }
+    .btn:hover{
+        background: #58126A;
+    }

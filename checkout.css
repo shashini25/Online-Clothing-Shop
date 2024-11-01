@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,500;1,5..1200,800&family=Poppins:wght@200&family=Roboto+Condensed&family=Zilla+Slab&display=swap');
+:root{
+    --violet:#58126A;
+    --pink:#F6B2E1;
+    --gradient:linear-gradient(10deg,var(--violet),var(--pink));
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Playfair', serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left,white,rgb(238, 181, 238));
+    
+
+}
+.section-p1{
+    padding: 40px 80px;
+}
+.checkout-container{
+    width: 600px;
+    height: 600px;
+    border: 1px solid;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;  
+}
+.checkout-container h1{
+    text-align: center;
+    margin-top: 2px;
+}
+.checkout-container hr{
+    width: 100%;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+.checkout-container h5{
+    margin-bottom: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+} 
+.name{
+    width: 100%;
+    margin-right: 40px;
+}
+.name p{
+    font-size: 18px;
+}
+
+.input-name input{
+    width: 100%;
+    outline: 1px;
+    height: 30px;
+    background: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.adrress p{
+    font-size: 18px;
+}
+.input-address input{
+   width: 100%;
+   outline: 1px;
+   height: 30px;
+   background: transparent;
+   font-size: 18px;
+   padding: 10px;
+   border-radius: 5px;
+}
+.phone p{
+    font-size: 18px;
+}
+.input-phone{
+    display: flex;
+    
+}
+.input-phone input{
+   width: 40%;
+   outline: 1px;
+   height: 30px;
+   background: transparent;
+   font-size: 18px;
+   padding: 10px 10px 10px;
+   border-radius: 5px;
+}
+.phone2{
+    margin-left: 15px; 
+}/*
+.fourth-row{
+    display: flex;
+}
+ .fourth-row p{
+    font-size: 18px;
+ }
+ .input-items input{
+    width: 150%;
+    outline: 1px;
+    height: 30px;
+    background: transparent;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 5px;
+ }
+ .quantity{
+     margin-left: 150px;
+ }
+ .quantity p{
+     font-size: 18px;
+ }
+ .input-quantity input{
+     width: 100%;
+     outline: 1px;
+     height: 30px;
+     background: transparent;
+     font-size: 18px;
+     padding: 10px;
+     border-radius: 5px;
+     margin-bottom: 20px;
+  }*/
+  .fifth-row table{
+    width: 100%;
+  }
+  .fifth-row th{
+    text-align: left;
+    font-size: 18px;
+  }
+  .fifth-row td{
+    text-align: right;
+    font-size: 18px;
+  }
+  .fifth-row .tot th {
+    font-size: 25px;
+  }
+  .fifth-row .tot td{
+    font-size: 25px;
+  }
+  .tot{
+    margin-bottom: 20px;
+  }
+  .sixth-row{
+    margin-top: 720px;
+  }
+
+.pay-method{
+    width: 100%;
+    margin-right: 40px;
+}
+.pay-method p{
+     font-size: 18px;
+}
+    
+.pay-method .input-pay-method{
+     font-size: 18px;
+    border-radius: 5px;
+    padding-left: 20px;
+}
+  
+ .btn{
+    margin-top: 20px;
+    width: 100%;
+    padding: 12px ;
+    font-size: 1rem;
+    align-items: center;
+    border: none;
+    color:rgb(255, 255, 255);
+    border-radius: 10px;
+    cursor: pointer;
+    background: var(--gradient);
+}
+.btn:hover{
+    background: #58126A;
+}
+
+.error{
+    color: red;
+    font-style: italic;
+    /*font-weight: 500;*/
+    font-size: 10px;
+}
+.error input{
+    border-color: red;
+}
